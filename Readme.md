@@ -1,6 +1,5 @@
 # Betsaleel Shopping Avatar
-Discover my e-commerce website featuring an AI-powered avatar to enhance your shopping experience, where shopping for fresh fruits, vegetables, exotic produce, and more has never been easier! 
-Experience the convenience of our AI-powered avatar that lets you place orders and ask product-related questions effortlessly. Interact with our virtual assistant via text or voice chat and enjoy a smarter way to shop for your favorite products!
+Discover my e-commerce website, featuring an AI-powered avatar that enhances your shopping experience. Shopping for fresh fruits, vegetables, exotic produce, and more has never been easier! Experience the convenience of our AI assistant, which lets you place orders and ask product-related questions effortlessly. Interact with our virtual assistant via text or voice chat, and enjoy a smarter way to shop for your favorite products!
 
 ✔Easily place orders and ask product-related questions through text or voice chat. 
 
