@@ -6,7 +6,7 @@ Experience the convenience of our AI-powered avatar that lets you place orders a
 
 ✔Shop smarter and interact seamlessly with our virtual assistant!
 
-### Click on the image to watch the demo video on YouTube.
+### [Click on the image to watch the demo video on YouTube.](https://youtu.be/2gI4cmVJbqo)
 
 [![Watch the video](doc-images/homepage.png)](https://youtu.be/2gI4cmVJbqo)
 
