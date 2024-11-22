@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Replace with your Azure subscription key and region
-    const subscriptionKey = "3YCySC99R9FoHmM89uFqbRKopAEjx8pSwLjfBC7ZNQ47WOGOed2cJQQJ99AKAC8vTInXJ3w3AAAYACOGs2BL";
+    const subscriptionKey = "3QRGjrMl2mcXLsNhisQiAK96WlULgo6elCEKmNGEJQicnZlBmjwvJQQJ99AKAC8vTInXJ3w3AAAYACOGoC0f";
     const region = "westus2";
 
     // Initialize speech configuration
