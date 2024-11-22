@@ -1,0 +1,10 @@
+{
+  "name": "betsaleel-shopping-avatar",
+  "version": "1.0.0",
+  "description": "Online vegs shopping website with an avatar to place order",
+  "scripts": {
+    "test": "sirv ./src public --cors --single --no-clear --port 8000"
+  },
+  "author": "Bestsaleel237",
+  "license": "ISC"
+}

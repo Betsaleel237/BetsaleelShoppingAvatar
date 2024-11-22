@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Betsaleel Shopping</title>
+
+  <link href="css/styles.css" rel="stylesheet" />
+
+  <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+  <script src="js/main.js"></script>
+
+  <script type="module" src="https://unpkg.com/@fluentui/web-components@2.0.0"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <div class="header">
+    
+    
+    <span class="header__title" >Betsaleel Shopping </span><img src="images/organic-microgreens.png" alt="Logo" width="40" height="40" />
+
+    <ul class="menu-items">
+      <li> <h2> Cuts & Sprouts</h2> </li>
+      <li> <h2>Exotic Fruits </h2></li>
+      <li><h2>Flower Bouquets</h2></li>
+      <li><h2>Fresh Vegetables</h2></li>
+      <li><h2>Fresh Fruits</h2></li>
+      <li><h2>Cart (0)</h2></li>
+    </ul>
+  </div>
+<br>
+<br>
+<!--
+  <div class="title">
+    <h1>Just tell me what you want to shop</h1>
+  </div>
+-->
+  <div class="main">
+    <div class="main-block">
+      <h2>
+        Here are some questions Betsaleel Avatar can help you with:</h2>
+
+      <div class="suggested-questions">
+        <button onclick="handleUserQuery(`Do you have Broccoli Florets?`)">
+          Do you have Broccoli Florets?
+        </button>
+
+        <button onclick="handleUserQuery(`How much does a Banana Bunch cost?`)">
+          How much does a Banana Bunch cost?
+        </button>
+
+        <button onclick="handleUserQuery(`Can I customize a flower bouquet?`)">
+          Can I customize a flower bouquet?
+        </button>
+
+        <button onclick="handleUserQuery(`what kind of Dragon Fruit do you have?`)">
+          what kind of Dragon Fruit do you have?
+        </button>
+      </div>
+    </div>
+
+    <div class="avatar-block">
+      <div id="remoteVideo">
+      </div>
+      <canvas id="canvas" width="720" height="1080" style="background-color: transparent;" hidden="hidden"></canvas>
+      <canvas id="tmpCanvas" width="720" height="1080" hidden="hidden"></canvas>
+      
+      <fluent-card class="record-card">
+        <div class="outerbutton">
+          <button id="startRecording" onclick="window.startRecording()" class="round-button">
+            <i id="buttonIcon" class="fas fa-microphone"></i>
+          </button>
+        </div>
+
+        <label id="spokenText" for="spokenText">
+          Tap the mic to place your order.
+        </label>
+      </fluent-card>
+    </div>
+
+    <div class="main-block">
+      <ul id="chathistory" class="chat-history"></ul>
+    </div>
+  </div>
+<!--
+  <div id="loginOverlay">
+    <div id="gradientOverlay">
+      <div class="loginCard">
+        <div class="loginCard__header">Sign In</div>
+
+        <fluent-text-field appearance="outline" placeholder="Betsaleel@email.com">Username</fluent-text-field>
+        <fluent-text-field appearance="outline" placeholder="****************">Password</fluent-text-field>
+
+        <div style="font-size: 14px;">
+          Pick an avatar and voice
+          <div style="display: flex; margin-top: 4px;">
+          <fluent-select id="avatar-name" style="min-width: 100px" title="Select a section">
+            <fluent-option value="Lisa">Lisa</fluent-option>
+            <fluent-option value="Meg">Meg</fluent-option>
+            <fluent-option value="max">Max</fluent-option>
+          </fluent-select>
+
+          <fluent-select id="avatar-voice" style="min-width: 100px" title="Select a section">
+            <fluent-option value="en-US-AvaMultilingualNeural">Ava</fluent-option>
+            <fluent-option value="en-US-AmandaMultilingualNeural">Amanda</fluent-option>
+            <fluent-option value="en-US-AndrewMultilingualNeural">Andrew</fluent-option>
+          </fluent-select>
+        </div>
+        </div>
+
+        <button id="playVideo" onclick="window.startSession()">
+          <span id="playVideo__text" class="playVideo__text">Sign in</span>
+        </button>
+      </div>
+    </div>
+  </div>
+-->
+</body>
+
+</html>

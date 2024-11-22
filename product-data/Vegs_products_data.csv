@@ -1,0 +1,11 @@
+id,category,name,tagline,description,original_price,special_offer,product_image_file
+2000,Cuts & Sprouts,Organic Microgreens,Fresh Microgreens for a Healthy Life,Premium organic microgreens packed with nutrients for your daily diet.,12.5,10.99,organic-microgreens.png
+2001,Cuts & Sprouts,Mixed Sprouts Pack,Ready-to-Eat Nutritious Sprouts,"A healthy mix of sprouts including lentils, chickpeas, and mung beans.",8.0,7.0,mixed-sprouts.png
+2002,Exotic Fruits,Dragon Fruit,Exotic Delight from the Tropics,"Fresh, juicy dragon fruits with a sweet and tangy flavor.",5.0,4.5,dragon-fruit.png
+2003,Exotic Fruits,Rambutan,Unique Taste of the Tropics,"Ripe, sweet rambutans for a truly exotic experience.",6.0,5.5,rambutan.png
+2004,Flower Bouquets,Rose Bouquet,Classic Roses for Every Occasion,"A beautiful bouquet of freshly picked roses, perfect for gifts or decor.",25.0,22.5,rose-bouquet.png
+2005,Flower Bouquets,Mixed Flower Arrangement,A Vibrant Mix of Fresh Flowers,"Hand-arranged bouquets with a mix of daisies, lilies, and more.",30.0,27.0,mixed-flowers.png
+2006,Fresh Vegetables,Organic Carrots,Freshly Harvested Organic Carrots,"Crunchy, sweet organic carrots perfect for salads and cooking.",3.0,2.5,organic-carrots.png
+2007,Fresh Vegetables,Broccoli Florets,Fresh and Nutritious Broccoli,Vibrant green broccoli florets rich in vitamins and minerals.,4.0,3.5,broccoli-florets.png
+2008,Fresh Fruits,Organic Apples,Crisp and Juicy Organic Apples,Farm-fresh apples that are naturally sweet and crunchy.,3.0,2.8,organic-apples.png
+2009,Fresh Fruits,Banana Bunch,Perfectly Ripe Bananas,"Fresh bananas with a rich and creamy flavor, ideal for snacking.",2.5,2.0,banana-bunch.png
